@@ -13,7 +13,7 @@
    "manifest_version": 2,
    "name": "Json Wrestler",
    "permissions": [ "storage","webNavigation","tabs", "chrome://favicon/","https://www.betfair.com/*, http://bot-ao.com/*" ],
-   "version": "1.0.0",
+   "version": "1.0.1",
    "web_accessible_resources": [ "images/*" ],
    "background": {
     "scripts": ["js/jquery-2.1.4.min.js","js/GET_background.js","js/background.js"]
