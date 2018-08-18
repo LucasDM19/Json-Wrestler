@@ -1,4 +1,7 @@
 {
+  "browser_action": {
+    "default_icon": "images/logo_32.png"
+  },
   "manifest_version": 2,
   "name": "Json Wrestler",
   "version": "0.1",
