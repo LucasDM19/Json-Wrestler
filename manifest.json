@@ -5,12 +5,13 @@
   "manifest_version": 2,
   "name": "Json Wrestler",
   "version": "0.1",
+  "content_security_policy": "script-src 'self' https://www.betfair.com; object-src 'self'",
   "content_scripts": [
    {
     "matches": [
       "<all_urls>"
     ],
-    "js": ["js/jquery-2.1.4.min.js", "js/content.js"]
+    "js": ["js/jquery-2.1.4.min.js", "js/content.js", "js/content2.js"]
    }
   ]
 }
